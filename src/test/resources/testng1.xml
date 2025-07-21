@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AmazonAutomationSuite1">
+    <test name="AmazonAssignment1">
+        <groups>
+            <run>
+                <exclude name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.zemoso.seleniumTest.AmazonFlowFirstTest">
+        </class>
+        </classes>
+    </test>
+</suite>

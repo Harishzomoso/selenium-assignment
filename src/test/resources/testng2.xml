@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AmazonAutomationSuite2">
+    <test name="AmazonAssignment2">
+        <classes>
+            <class name="com.zemoso.seleniumTest.AmazonFlowSecondTest"/>
+        </classes>
+    </test>
+</suite>
