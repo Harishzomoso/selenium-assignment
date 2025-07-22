@@ -8,9 +8,9 @@ import org.testng.annotations.*;
 import java.time.Duration;
 
 public class BaseTest {
-    protected WebDriver driver;
+    public WebDriver driver;
 
-    @BeforeTest
+    @BeforeClass
     public void setUp() {
         System.out.println("Inside line 15");
         driver = WebDriverFactory.createDriver();
@@ -21,10 +21,13 @@ public class BaseTest {
         landingPage.navigateToLandingPage();
     }
 
-    @AfterTest
+    @AfterClass
     public void tearDown() {
         if (driver != null) {
             driver.quit();
         }
+    }
+    public WebDriver getDriver() {
+        return driver;
     }
 }

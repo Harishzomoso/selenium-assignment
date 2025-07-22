@@ -1,0 +1,13 @@
+<suite name="AmazonRegressionSuite" >
+    <test name="RegressionTests">
+        <groups>
+            <run>
+                <exclude name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.zemoso.seleniumTest.AmazonFlowFirstTest"/>
+            <class name="com.zemoso.seleniumTest.AmazonFlowSecondTest"/>
+        </classes>
+    </test>
+</suite>

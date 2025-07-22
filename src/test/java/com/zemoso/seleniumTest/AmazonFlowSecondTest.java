@@ -10,7 +10,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(TestListener.class)
-public class AmazonFlowSecondTest extends BaseTest{
+public class AmazonFlowSecondTest extends BaseTest {
 
 
     @Test(priority = 1)
